@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard - Finance Summit 2024</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">Finance Summit</div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html#home">Home</a></li>
+                    <li><a href="about.html#about">About</a></li>
+                    <li><a href="events.html#events">Events</a></li>
+                    <li><a href="organizers.html#organizers">Organizers</a></li>
+                    <li><a href="gallery.html#gallery">Gallery</a></li>
+                    <li><a href="admin-attendance.html#admin">Attendance</a></li>
+                    <li><a href="contact.html#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <a href="logout.html" class="cta-btn">Logout</a>
+        </div>
+    </header>
+
+    <section class="dashboard">
+        <div class="container">
+            <h2>Welcome, Student Name!</h2>
+            <p>Here is your personal dashboard where you can view your progress and stay updated on your attendance and coins.</p>
+            
+            <div class="dashboard-summary">
+                <div class="summary-item">
+                    <h3>Coins Balance</h3>
+                    <p id="coin-balance">250</p>
+                </div>
+                <div class="summary-item">
+                    <h3>Attendance</h3>
+                    <p id="attendance-status">2/5 events attended</p>
+                </div>
+            </div>
+
+            <div class="events-summary">
+                <h3>Your Registered Events</h3>
+                <ul>
+                    <li><strong>Financial Planning Workshop</strong> - Attended</li>
+                    <li><strong>Investment Strategies Seminar</strong> - Missed</li>
+                    <li><strong>Cryptocurrency Session</strong> - Attended</li>
+                    <li><strong>Stock Market Simulation</strong> - Pending</li>
+                    <li><strong>Startups & Funding Discussion</strong> - Pending</li>
+                </ul>
+            </div>
+
+            <div class="coins-deductions">
+                <h3>Upcoming Deductions</h3>
+                <p>If you miss any events or seminars, you will lose 25 coins. Make sure to attend them!</p>
+            </div>
+
+            <div class="actions">
+                <a href="events.html" class="cta-btn">Browse Events</a>
+                <a href="profile.html" class="cta-btn">Edit Profile</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Finance Summit | Designed with ❤ by FinWiz</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

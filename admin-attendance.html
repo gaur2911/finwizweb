@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Attendance Management - Finance Summit 2024</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">Finance Summit</div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html#home">Home</a></li>
+                    <li><a href="about.html#about">About</a></li>
+                    <li><a href="events.html#events">Events</a></li>
+                    <li><a href="organizers.html#organizers">Organizers</a></li>
+                    <li><a href="gallery.html#gallery">Gallery</a></li>
+                    <li><a href="admin-attendance.html#admin">Attendance</a></li>
+                    <li><a href="contact.html#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <a href="logout.html" class="cta-btn">Logout</a>
+        </div>
+    </header>
+
+    <section class="admin-attendance" id="admin">
+        <div class="container">
+            <h2>Admin - Attendance Management</h2>
+            <p>As the admin, you can manage the attendance for all students for each event and seminar.</p>
+
+            <div class="attendance-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Student Name</th>
+                            <th>Event Name</th>
+                            <th>Attendance Status</th>
+                            <th>Coins Deducted</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>John Doe</td>
+                            <td>Financial Planning Workshop</td>
+                            <td><span class="status attended">Attended</span></td>
+                            <td>0</td>
+                            <td><button class="mark-attendance">Mark Missed</button></td>
+                        </tr>
+                        <tr>
+                            <td>Jane Smith</td>
+                            <td>Investment Strategies Seminar</td>
+                            <td><span class="status missed">Missed</span></td>
+                            <td>25</td>
+                            <td><button class="mark-attendance">Mark Attended</button></td>
+                        </tr>
+                        <tr>
+                            <td>Mark Johnson</td>
+                            <td>Cryptocurrency Session</td>
+                            <td><span class="status attended">Attended</span></td>
+                            <td>0</td>
+                            <td><button class="mark-attendance">Mark Missed</button></td>
+                        </tr>
+                        <tr>
+                            <td>Emily Davis</td>
+                            <td>Stock Market Simulation</td>
+                            <td><span class="status pending">Pending</span></td>
+                            <td>0</td>
+                            <td><button class="mark-attendance">Mark Attended</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Finance Summit | Designed with ❤ by FinWiz</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
